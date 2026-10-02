@@ -383,12 +383,12 @@ html { scroll-behavior: smooth; }
 .pf {
   --pf-primary: #2563eb;
   --pf-primary-hover: #1d4ed8;
-  --pf-bg: #f8fafc;
-  --pf-text: #0f172a;
+  --pf-bg: #0b1020;
+  --pf-text: #f1f5f9;
   --pf-card: #ffffff;
-  background-color: var(--pf-bg);
+  background: var(--pf-bg) url('dev-bg.svg') center/cover no-repeat;
   color: var(--pf-text);
-  margin-top: 2rem;
+  margin-top: 0;
 }
 
 .pf-main {
@@ -402,13 +402,13 @@ html { scroll-behavior: smooth; }
 .pf h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  border-bottom: 2px solid var(--pf-primary);
+  border-bottom: 2px solid #60a5fa;
   display: inline-block;
 }
 
 .pf-hero { text-align: center; padding: 4rem 0; }
 .pf-hero h1 { font-size: 3rem; margin-bottom: 1rem; }
-.pf-hero p { font-size: 1.2rem; margin-bottom: 2rem; color: #475569; }
+.pf-hero p { font-size: 1.2rem; margin-bottom: 2rem; color: #cbd5e1; }
 
 .pf .btn {
   display: inline-block;
@@ -431,6 +431,7 @@ html { scroll-behavior: smooth; }
 
 .pf .card {
   background-color: var(--pf-card);
+  color: #0f172a;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
